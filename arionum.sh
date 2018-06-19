@@ -12,6 +12,7 @@ git clone https://github.com/arionum/lightWalletCLI arionum/lightWalletCLI
 arionum/lightWalletCLI/light-arionum-cli
 
 # Install miner
+wget https://github.com/ProgrammerDan/arionum-java/releases/download/0.2.5/arionum-miner-java.jar
 sudo apt-get install openjdk-8-jdk maven git gcc make build-essential -y
 git clone git://github.com/Programmerdan/arionum-java arionum/arionum-java
 cd arionum/arionum-java/arionum-miner
